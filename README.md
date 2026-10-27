@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/pocn98/MineTune">Repository</a> ·
   <a href="https://github.com/pocn98/MineTune/issues">Issues & feedback</a> ·
-  <a href="https://github.com/pocn98/MineTune/commits/main">Update history</a>
+  <a href="https://github.com/pocn98/MineTune/releases">Releases / older versions</a>
 </p>
 
 ---
@@ -21,29 +21,22 @@ This repository distributes compiled `.jar` files and user documentation. Source
 
 ## Download MineTune
 
-### Latest uploaded build — 1.0.1
+### Latest version — 1.0.1
 
-**[Download MineTune 1.0.1 (ZIP containing all three builds)](https://github.com/pocn98/MineTune/raw/refs/heads/main/MineTune-Releases1.0.1.zip)**
+**[Download MineTune 1.0.1 for Minecraft 26.3 (Fabric)](https://raw.githubusercontent.com/pocn98/MineTune/main/MineTune-Releases/26.3%28fabrc%29/minetune-1.0.1.jar)**
 
-The ZIP contains these files:
+Other 1.0.1 builds:
 
-| Minecraft / loader label | JAR inside the ZIP |
-| --- | --- |
-| 1.21.11 · Fabric | `minetune-1.0.1.jar` |
-| 1.8.9 · Forge | `minetune-1.0.1.jar` |
-| 26.3 · Fabric (folder label) | `minetune-1.0.1.jar` |
+- [Minecraft 1.21.11 · Fabric — JAR](https://raw.githubusercontent.com/pocn98/MineTune/main/MineTune-Releases/1.21.11%28fabric%29/minetune-1.0.1.jar)
+- [Minecraft 1.8.9 · Forge — JAR](https://raw.githubusercontent.com/pocn98/MineTune/main/MineTune-Releases/1.8.9%28forge%29/minetune-1.0.1.jar)
 
-Extract the ZIP and select the JAR for your intended Minecraft version. The third folder is currently named `26.3(fabrc)`; that folder name appears to contain a typo.
+Choose only the JAR matching your Minecraft version and mod loader. The 26.3 folder is currently named `26.3(fabrc)`; that folder label appears to contain a typo.
 
-**Compatibility note:** These version labels are taken from the uploaded package's folder names. They are not a guarantee of compatibility on every setup. Confirm the intended Minecraft version and loader before using a build.
+**Compatibility note:** Version labels above come from the repository folder names and do not guarantee compatibility on every setup. Confirm the intended Minecraft version and loader before using a build.
 
-### Previous build — 1.0.0
+### Older versions
 
-The previous individual JAR files remain available in the repository:
-
-- [1.21.11 · Fabric](https://github.com/pocn98/MineTune/blob/main/MineTune-Releases/1.21.11%28fabric%29/minetune-1.0.0.jar?raw=true)
-- [1.8.9 · Forge](https://github.com/pocn98/MineTune/blob/main/MineTune-Releases/1.8.9%28forge%29/minetune-1.0.0.jar?raw=true)
-- [26.3 · folder labeled fabrc](https://github.com/pocn98/MineTune/blob/main/MineTune-Releases/26.3%28fabrc%29/minetune-1.0.0.jar?raw=true)
+Older builds should be accessed through the [GitHub Releases page](https://github.com/pocn98/MineTune/releases), not through the main download section.
 
 ## Features
 
@@ -55,11 +48,10 @@ Feature availability may vary by build. Report any missing or malfunctioning fea
 
 ## Installation
 
-1. Download the ZIP linked above and extract it, or download a previous build.
-2. Choose the JAR matching your Minecraft version and mod loader.
-3. Install the matching mod loader and any required dependencies.
-4. Place the chosen JAR in that Minecraft instance's `mods` folder.
-5. Launch the matching Minecraft profile.
+1. Download the direct JAR link for your Minecraft version and mod loader above.
+2. Install the matching mod loader and any required dependencies.
+3. Place the chosen JAR in that Minecraft instance's `mods` folder.
+4. Launch the matching Minecraft profile.
 
 See the [installation guide](docs/INSTALLATION.md) for troubleshooting.
 
