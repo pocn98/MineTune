@@ -1,10 +1,10 @@
 # Changelog
 
-## 1.0.1 — Updated build package
+## 1.0.1 — Updated build
 
-- Published the new 1.0.1 build package uploaded by the project maintainer.
+- Published individual 1.0.1 JAR downloads for the three uploaded Minecraft/loader labels.
+- Removed the combined ZIP package from the repository.
 - The maintainer reports that the previously observed file-add button and initial audio playback bugs have been fixed.
-- Added download instructions for the three packaged Minecraft/loader variants.
 
 ### Planned improvement
 
