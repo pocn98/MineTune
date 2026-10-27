@@ -1,10 +1,17 @@
 # Changelog
 
-This file records changes to published MineTune releases.
+All notable public documentation and build updates for MineTune are recorded here.
 
-## Unreleased
+## 1.0.0 — Initial uploaded builds
 
-- Organize project documentation and release information.
-- Add verified release notes when builds are published.
+- Added uploaded build files for the Minecraft/loader variants labeled in the repository.
+- Added project overview and installation documentation.
+- Compatibility details must be confirmed against each individual JAR before a build is considered verified.
 
-> Release-specific compatibility and feature details should be recorded only after the corresponding build has been checked.
+### Build labels currently present
+
+- `1.21.11 (Fabric)`
+- `1.8.9 (Forge)`
+- `26.3 (folder currently named "fabrc")`
+
+> These are the names of the uploaded folders, not an independent guarantee that each JAR works on every matching setup. Always test the exact file with its intended Minecraft version and loader.
