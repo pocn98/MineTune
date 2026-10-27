@@ -2,15 +2,15 @@
 
 ## 1. Choose the right file
 
-Open the [MineTune repository](https://github.com/pocn98/MineTune) and choose the JAR under the folder matching your Minecraft version and mod loader.
+Download the direct `.jar` link for the Minecraft version and mod loader you use from the [MineTune README](../README.md).
 
-Uploaded folder labels:
+Current 1.0.1 build labels:
 
 - `1.21.11 (Fabric)`
 - `1.8.9 (Forge)`
 - `26.3 (fabrc)`
 
-The folder label alone does not prove compatibility. If a build fails to load, check the JAR's metadata and its release notes before trying again.
+The folder label alone does not prove compatibility. Confirm the intended Minecraft version and loader before using a build.
 
 ## 2. Install
 
@@ -27,7 +27,11 @@ Do not put multiple MineTune builds for different Minecraft versions in the same
 
 The metadata in the inspected 1.0.0 Fabric build describes local music-file support for MP3, OGG, and WAV files. Follow the in-game instructions for your specific build and keep a backup of your music files.
 
-## 4. Troubleshooting
+## 4. Older versions
+
+Use the [GitHub Releases page](https://github.com/pocn98/MineTune/releases) for older versions when they are published there.
+
+## 5. Troubleshooting
 
 - Confirm the Minecraft version, loader, and MineTune build match.
 - Remove duplicate or outdated MineTune JARs from the instance's `mods` folder.
