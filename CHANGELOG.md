@@ -1,17 +1,18 @@
 # Changelog
 
-All notable public documentation and build updates for MineTune are recorded here.
+## 1.0.1 — Updated build package
+
+- Published the new 1.0.1 build package uploaded by the project maintainer.
+- The maintainer reports that the previously observed file-add button and initial audio playback bugs have been fixed.
+- Added download instructions for the three packaged Minecraft/loader variants.
+
+### Planned improvement
+
+- Prevent adding a track that is already registered in a playlist and show a message when a duplicate is attempted. This is a planned change and is **not confirmed as implemented in 1.0.1**.
 
 ## 1.0.0 — Initial uploaded builds
 
-- Added uploaded build files for the Minecraft/loader variants labeled in the repository.
+- Initial JAR files for the version/loader variants labeled in the repository.
 - Added project overview and installation documentation.
-- Compatibility details must be confirmed against each individual JAR before a build is considered verified.
 
-### Build labels currently present
-
-- `1.21.11 (Fabric)`
-- `1.8.9 (Forge)`
-- `26.3 (folder currently named "fabrc")`
-
-> These are the names of the uploaded folders, not an independent guarantee that each JAR works on every matching setup. Always test the exact file with its intended Minecraft version and loader.
+> Folder labels reflect the uploaded package structure; compatibility should be verified with the exact Minecraft version and loader.
