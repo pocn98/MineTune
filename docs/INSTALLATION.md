@@ -1,30 +1,37 @@
-# Installation
+# MineTune Installation Guide
 
-Use this checklist for a safe, clean installation of MineTune.
+## 1. Choose the right file
 
-## Before installing
+Open the [MineTune repository](https://github.com/pocn98/MineTune) and choose the JAR under the folder matching your Minecraft version and mod loader.
 
-1. Open the [MineTune Releases page](https://github.com/pocn98/MineTune/releases).
-2. Choose a release that explicitly lists your Minecraft version.
-3. Check which mod loader and loader version it requires.
-4. Download the `.jar` attached to that release.
+Uploaded folder labels:
 
-Do not assume that one build works on every Minecraft version.
+- `1.21.11 (Fabric)`
+- `1.8.9 (Forge)`
+- `26.3 (fabrc)`
 
-## Install
+The folder label alone does not prove compatibility. If a build fails to load, check the JAR's metadata and its release notes before trying again.
+
+## 2. Install
 
 1. Close Minecraft and the launcher.
-2. Make sure the required mod loader is installed for the matching Minecraft version.
-3. Open your Minecraft game directory.
-4. Open or create the `mods` folder.
-5. Put the downloaded MineTune `.jar` file in that folder.
+2. Install the mod loader required by the selected build.
+3. Download only the MineTune JAR intended for that Minecraft version and loader.
+4. Place the JAR in that Minecraft instance's `mods` folder.
+5. Install any dependencies specified for that build.
 6. Launch the matching Minecraft profile.
 
-## If it does not work
+Do not put multiple MineTune builds for different Minecraft versions in the same instance.
 
-- Confirm that Minecraft, the mod loader, and MineTune all target compatible versions.
-- Remove duplicate or outdated MineTune builds from the `mods` folder.
-- Check the latest log or crash report.
-- Report the issue at [GitHub Issues](https://github.com/pocn98/MineTune/issues), including your game version, loader version, file name, and relevant error text.
+## 3. Add music
 
-Do not share passwords, session tokens, or other private account data in a report.
+The metadata in the inspected 1.0.0 Fabric build describes local music-file support for MP3, OGG, and WAV files. Follow the in-game instructions for your specific build and keep a backup of your music files.
+
+## 4. Troubleshooting
+
+- Confirm the Minecraft version, loader, and MineTune build match.
+- Remove duplicate or outdated MineTune JARs from the instance's `mods` folder.
+- Check the Minecraft log or crash report for the first relevant error.
+- Report the issue on [GitHub Issues](https://github.com/pocn98/MineTune/issues).
+
+Please include the exact build filename, Minecraft version, loader/version, and relevant error text. Never post passwords or account tokens.
